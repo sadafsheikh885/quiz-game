@@ -1,0 +1,7 @@
+Flask
+flask_cors
+openpyxl
+requests
+PyPDF2
+python-docx
+werkzeug
