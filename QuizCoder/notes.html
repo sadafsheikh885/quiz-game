@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes Mania Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📚 Notes Mania Quiz</h2>
+
+    <!-- File upload section -->
+    <input type="file" id="notes-file" accept=".txt,.pdf,.docx">
+    <button id="upload-notes">Upload & Start</button>
+
+    <!-- Quiz display zone -->
+    <div id="notes-quiz-zone" style="margin-top:20px;"></div>
+
+    <!-- Back to Dashboard -->
+    <button onclick="window.location.href='dashboard.html'" style="margin-top:20px;">
+      ⬅ Back to Dashboard
+    </button>
+  </div>
+
+  <!-- Your script.js file -->
+  <script src="script.js"></script>
+</body>
+</html>
